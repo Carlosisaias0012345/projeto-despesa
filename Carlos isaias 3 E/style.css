@@ -1,0 +1,152 @@
+:root{
+/* Primary */
+--Soft-red: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+
+/* Neutral */
+--Dark-brown: hsl(25, 47%, 15%);
+--Medium-brown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--Very-pale-orange: hsl(33, 100%, 98%);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html, body{
+    background-color: var(--Cream);
+    font-family: 'DM Sans', sans-serif;
+}
+p{
+    font-size: 18px;
+}
+.result{
+    background-color: var(--Soft-red);
+    gap: 465px;
+    border-radius: 10px;  
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.result span{
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+}
+.result p{
+    color: white;
+    font-size: 17px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 1440px;
+    min-width: 375px;
+}
+.dia{
+    background-color: var(--Very-pale-orange);
+    border-radius: 10px;
+    padding: 16px;
+}
+.semana{
+    display: flex;
+    justify-content: space-around;
+    transform: scale(1, -1);
+    gap: 5px;
+    margin: 15px;
+}
+h5{
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--Medium-brown);
+}
+.dia h1{
+    font-size: 30px;
+}
+h2{
+    font-weight: 700;
+}
+.semana div:hover{
+    opacity: 40%;
+}
+.valor{
+    display: flex;
+    gap: 420px;
+    align-items: center;
+}
+.valor p{
+    justify-self: end;
+    text-align: end;
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+}
+.valor span{
+    color: var(--Medium-brown);
+}
+.caixa1{
+    background-color: var(--Soft-red);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 60px;
+}
+.caixa2{
+     background-color: var(--Soft-red);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 80px;
+}
+.caixa3{
+     background-color: var(--Cyan);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 105px;
+}
+.caixa4{
+    background-color: var(--Soft-red);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 68px;
+}
+.caixa5{
+    background-color: var(--Soft-red);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 58px;
+}
+.caixa6{
+    background-color: var(--Soft-red);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 97px;
+}
+.caixa7{
+    background-color: var(--Soft-red);
+    padding: 20px;
+    border-radius: 4px;
+    width: 37px;
+    height: 65px;
+}
+.semanas{
+    text-align: center;
+    display: flex;
+    margin: 0 48px;
+    gap: 59px;
+    padding-top: 13px;
+    color: var(--Medium-brown);
+}
+hr{
+    margin: 16px;
+}
